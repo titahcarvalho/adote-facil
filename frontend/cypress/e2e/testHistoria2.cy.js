@@ -7,6 +7,6 @@ describe("template spec", () => {
     cy.get(
       '.sc-26506e6-5 > .sc-c7cdb42d-0 > [href="/area_logada/animais_disponiveis"] > .sc-c7cdb42d-1'
     ).click();
-    cy.get('a > .sc-ea747762-0').click();
+    cy.get("a > .sc-ea747762-0").click({ multiple: true });
   });
 });
